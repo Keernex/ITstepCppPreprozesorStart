@@ -23,17 +23,17 @@ int main()
     #define min_mas min_mas_int 
     #define max_mas max_mas_int 
     #define sort_mas sort_mas_int 
-    #define redaction_mas redaction_mas_int 
+    #define redaction_mas redaction_mas_int
+        cout << "1 - random" << endl;
+        cout << "2 - print" << endl;
+        cout << "3 - min" << endl;
+        cout << "4 - max" << endl;
+        cout << "5 - sort" << endl;
+        cout << "6 - redaction" << endl;
+        cout << "7 - end" << endl;
         while (true)
         {
             int w = 0;
-            cout << "1 - random" << endl;
-            cout << "2 - print" << endl;
-            cout << "3 - min" << endl;
-            cout << "4 - max" << endl;
-            cout << "5 - sort" << endl;
-            cout << "6 - redaction" << endl;
-            cout << "7 - end" << endl;
             cin >> w;
 
             if (w == 1)
@@ -46,11 +46,11 @@ int main()
             }
             if (w == 3)
             {
-                cout << min_mas(arr_int, size) << endl;
+                cout << "min: " << min_mas(arr_int, size) << endl;
             }
             if (w == 4)
             {
-                cout << max_mas(arr_int, size) << endl;
+                cout << "max: " << max_mas(arr_int, size) << endl;
             }
             if (w == 5)
             {
@@ -80,16 +80,16 @@ int main()
     #define max_mas max_mas_double 
     #define sort_mas sort_mas_double 
     #define redaction_mas redaction_mas_double 
+        cout << "1 - random" << endl;
+        cout << "2 - print" << endl;
+        cout << "3 - min" << endl;
+        cout << "4 - max" << endl;
+        cout << "5 - sort" << endl;
+        cout << "6 - redaction" << endl;
+        cout << "7 - end" << endl;
         while (true)
         {
             int w = 0;
-            cout << "1 - random" << endl;
-            cout << "2 - print" << endl;
-            cout << "3 - min" << endl;
-            cout << "4 - max" << endl;
-            cout << "5 - sort" << endl;
-            cout << "6 - redaction" << endl;
-            cout << "7 - end" << endl;
             cin >> w;
 
             if (w == 1)
@@ -102,11 +102,11 @@ int main()
             }
             if (w == 3)
             {
-                cout << min_mas(arr_double, size) << endl;
+                cout << "min: " << min_mas(arr_double, size) << endl;
             }
             if (w == 4)
             {
-                cout << max_mas(arr_double, size) << endl;
+                cout << "max: " << max_mas(arr_double, size) << endl;
             }
             if (w == 5)
             {
@@ -135,16 +135,16 @@ int main()
     #define max_mas max_mas_char 
     #define sort_mas sort_mas_char 
     #define redaction_mas redaction_mas_char 
+        cout << "1 - random" << endl;
+        cout << "2 - print" << endl;
+        cout << "3 - min" << endl;
+        cout << "4 - max" << endl;
+        cout << "5 - sort" << endl;
+        cout << "6 - redaction" << endl;
+        cout << "7 - end" << endl;
         while (true)
         {
             int w = 0;
-            cout << "1 - random" << endl;
-            cout << "2 - print" << endl;
-            cout << "3 - min" << endl;
-            cout << "4 - max" << endl;
-            cout << "5 - sort" << endl;
-            cout << "6 - redaction" << endl;
-            cout << "7 - end" << endl;
             cin >> w;
 
             if (w == 1)
@@ -157,11 +157,11 @@ int main()
             }
             if (w == 3)
             {
-                cout << min_mas(arr_char, size) << endl;
+                cout << "min: " << min_mas(arr_char, size) << endl;
             }
             if (w == 4)
             {
-                cout << max_mas(arr_char, size) << endl;
+                cout << "max: " << max_mas(arr_char, size) << endl;
             }
             if (w == 5)
             {
